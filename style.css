@@ -1,0 +1,40 @@
+.shoe-type {
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+	cursor: pointer;
+}
+
+table th, table td {
+	border: 1px solid #eeeeee;
+	padding:10px;
+}
+
+.shoe-model {
+	height: 150px;
+	background-color: #eaeaea;
+    margin: 15px 0px;
+}
+
+.shoe-display {
+	padding: 10px;
+	float: left;
+}
+
+.shoe-size {
+	padding: 5px 15px;
+	cursor: pointer;
+}
+
+.d-none {
+	display: none;
+}
+
+.point-none {
+	pointer-events: none;
+}
+
+.shoe-type.selected {
+	border: 1px solid green !important;
+}
